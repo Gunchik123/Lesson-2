@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>    
+      Демонстрация Flexbox
+    </h1>
+    <link rel="stylesheet" href="style.css">
+  </header>
+
+  <section>
+    <h2>
+      Flex Direction: Row (по умолчанию) 
+    </h2>
+    <p>
+      Элементы расположены в ряд слева направо
+      (поведение по умолчанию)
+    </p>
+    <div class="flex-container row">
+      <div class="flex-item">Элемент 1</div>
+      <div class="flex-item">Элемент 2</div>
+      <div class="flex-item">Элемент 3</div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>
+      flex-direction: Column
+    </h2>
+    <p>
+      элементы расположены вертикально, в колонку
+    </p>
+    <div class="flex-container Column">
+      <div class="flex-item">Элемент 1</div>
+      <div class="flex-item">Элемент 2</div>
+      <div class="flex-item">Элемент 3</div>
+    </div>
+    
+    <section>
+      <h2>
+        Justify content: Wrap
+      </h2>
+      <p>
+        элементы переходят на новую строку, если контейнер недостаточно широк
+      </p>
+      <div class="flex-container wrap">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+        <div class="flex-item">Элемент 3</div>
+        <div class="flex-item">Элемент 4</div>
+        <div class="flex-item">Элемент 5</div>
+       </div>
+    </section>
+
+    <section>
+      <h2>
+        Justify content: Space between
+      </h2>
+
+      <p>
+        Элементы равномерно расположены с пространством между ними.
+      </p>
+
+      <div class="flex-container Justify-space-between">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Justify content: Space around
+      </h2>
+
+      <p>
+        Элементы равномерно распределены с пространством между ними.
+      </p>
+
+      <div class="flex-container Justify-space-around">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>
+        Justify content: Space evenly
+      </h2>
+
+      <p>
+        Элементы равномерно распределены с пространством между ними.
+      </p>
+
+      <div class="flex-container Justify-space-evenly">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Align items: Center
+     </h2>
+
+        <p>
+        Элементы выравнены по центру вертикально внутри контейнера  
+        </p>
+
+     <div class="flex-container align-items-center">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Align items: Start
+     </h2>
+
+        <p>
+        Элементы выравнены по центру вертикально внутри контейнера  
+        </p>
+
+     <div class="flex-container align-items-start">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Align items: End
+     </h2>
+
+        <p>
+        Элементы выравнены по центру вертикально внутри контейнера  
+        </p>
+
+     <div class="flex-container align-items-end">
+        <div class="flex-item">Элемент 1</div>
+        <div class="flex-item">Элемент 2</div>
+      </div>
+    </section>
+
+  </div>
+  </section>
+</body>
+</html>
